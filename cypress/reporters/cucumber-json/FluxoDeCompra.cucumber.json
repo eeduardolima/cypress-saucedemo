@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Validar fluxo de compras do site",
+    "line": 2,
+    "id": "validar-fluxo-de-compras-do-site",
+    "tags": [],
+    "uri": "FluxoDeCompra.feature",
+    "elements": [
+      {
+        "id": "validar-fluxo-de-compras-do-site;realizar-compra-com-sucesso",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Realizar compra com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 2557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 6,
+            "name": "realizo a ordenação de menor para maior",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "adiciono os produtos no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 1012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 8,
+            "name": "valido o checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "valido que a compra foi realizada com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
